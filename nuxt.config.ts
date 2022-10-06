@@ -9,6 +9,7 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       mapBoxToken: 'mySuperSecretToken',
+      mapCenter: [4.3, 51.3],
     },
   },
 });

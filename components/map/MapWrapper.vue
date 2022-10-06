@@ -26,7 +26,7 @@
   }>();
 
   const runtimeConfig = useRuntimeConfig();
-  const defaultCenter: LngLatLike = [4.3, 51.3];
+  const defaultCenter = runtimeConfig.public.mapCenter as LngLatLike;
   let map: any;
 
   onMounted(() => {
